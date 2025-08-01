@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        
+    </style>
+</head>
+<body class="container">
+   <!-- <table>
+    <tr>
+        <th>
+            gambar
+        </th>
+        <th>
+            deskripsi
+        </th>
+    </tr>
+    <tr>
+    <th>
+        <img src="locked in 2.jpg" alt="">
+    </th>
+    <th>
+       kucing
+    </th>
+    </tr>
+    <tr>
+        <th><img src="fire.webp" alt="">
+        </th>
+        <th>
+            fire
+        </th>
+    </tr>
+   </table>
+   <form action="">
+    <label for="nama">Nama</label>
+    <input type="text" name="nama" id="nama" placeholder="Masukkan nama anda">
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email" placeholder="Masukkan email anda">
+    <label for="password">Password</label>
+    <input type="password" name="password" id="password" placeholder="Masukkan password anda">
+        <select name="opsi kerja" id="kerja">
+        <option value="hitam">kuli jawa
+            <option value="orang_kaya">bos besar</option>
+        </select>
+    <button type="submit">Kirim</button>
+    <input type="button" value="don't click me!" onclick="alert('why you click me?')">
+    <label for="">
+        <input type="checkbox" name="checkbox" id="checkbox">
+        are you a truck?
+    <input type="color">
+    <label for="jadwal">
+        jadwal berangkat<input type="datetime-local">
+    </label>
+    </label>
+
+   </form>
+   <fieldset>
+    <legend>Data Diri</legend>
+    <label for="nama">Nama</label>
+    <input type="text" name="nama" id="nama" placeholder="Masukkan nama anda"><br><br>
+    <label for="alamat">alamat</label>
+    <input type="text" name="alamat" id="alamat" placeholder="Masukkan alamat anda"><br><br>
+    <label for="no.HP">no.HP</label>
+    <input type="number" name="no.HP" id="no.HP" placeholder="Masukkan no.HP anda"><br><br>
+
+    <button type="submit">Kirim</button>
+   </fieldset>
+   <textarea name="" id="" rows="8" cols="100" placeholder="isi dengan benar!"></textarea> -->
+   <div class="header">
+    <h1>Formulir Pendaftaran</h1>
+    <p>Silakan isi formulir di samping dengan informasi yang benar.</p>
+</div>
+<div class="fade-in">
+   <fieldset>
+  <legend>Data Diri</legend>
+  <label for="nama">Nama:</label>
+  <input type="text" id="nama" name="nama" placeholder="Masukkan nama Anda" required>
+  
+  <label for="alamat">Alamat:</label>
+  
+  <input type="text" id="alamat" name="alamat" placeholder="Masukkan alamat Anda" required>
+    <label for="no-hp">No. HP:</label>
+    <input type="tel" id="no-hp" name="no-hp" placeholder="Masukkan nomor HP Anda" required>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Masukkan email Anda" required>
+<div class="radio-group">
+    <label for="gender">jenis Kelamin:</label>
+  <label>
+    <input type="radio" name="gender" value="male"> Laki-laki
+  </label>
+  <label>
+    <input type="radio" name="gender" value="female"> Perempuan
+  </label>
+</div>
+<label for="jenis_pekerjaan">jenis Pekerjaan:</label>
+     <select name="opsi kerja" id="kerja">
+        <option value="programmer">programmer</option>
+            <option value="orang_kaya">direktur</option>
+        <option value="kuli">kuli</option>
+        <option value="karyawan">karyawan</option>
+        </select>
+    <label for="deskripsi">deskipsikan dirimu:</label>
+    <textarea id="deskripsi" name="deskripsi" rows="4" cols="50" placeholder="Tulis deskripsi singkat tentang diri Anda"></textarea>
+    <label for="fileUpload">upload CV-mu:</label>
+     <input type="file" name="fileUpload" id="fileUpload" required>
+  <button type="submit" class="btn">Kirim</button>
+</fieldset>
+</div>
+
+</body>
+</html>
